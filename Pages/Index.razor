@@ -1,0 +1,13 @@
+﻿@page "/"
+
+<MudText Align="Align.Center" Typo="Typo.h2">Call scheduler</MudText>
+<MudText Align="Align.Center" Typo="Typo.subtitle1">Here you can schedule a call with our recruiter</MudText>
+
+<LoginDisplay />
+
+<AuthorizeView>
+    <Authorized>
+        <Calendar />
+        <Booking />
+    </Authorized>
+</AuthorizeView>

@@ -1,0 +1,16 @@
+﻿<MudCard Outlined="true" Style="@($"background: {Colors.Blue.Lighten5}; max-width: 250px")">
+    <MudCardContent>
+        <MudText Style="font-weight:bold">@Title</MudText>
+        <MudText Typo="Typo.caption" Class="d-block">@Start?.ToString("dddd, dd MMMM")</MudText>
+        <MudText Typo="Typo.caption">From @Start?.TimeOfDay.ToString("h\\:mm") to @End?.TimeOfDay.ToString("h\\:mm")</MudText>
+    </MudCardContent>
+</MudCard>
+
+@code {
+    [Parameter]
+    public string? Title { get; set; }
+    [Parameter]
+    public DateTime? Start { get; set; }
+    [Parameter]
+    public DateTime? End { get; set; }
+}
