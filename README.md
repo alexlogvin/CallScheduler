@@ -44,7 +44,9 @@ This project uses:
     - Solution: **Stop** the project and **Run** it again
 
 ### Notes
-> The project was build using some code peaces from [msgraph-sample-blazor-clientside](https://github.com/microsoftgraph/msgraph-sample-blazor-clientside)
+- The project was build using some code peaces from [msgraph-sample-blazor-clientside](https://github.com/microsoftgraph/msgraph-sample-blazor-clientside)
+
+- The project was made as a candidate for [Hack Together: Microsoft Graph and .NET](https://github.com/microsoft/hack-together) event
 
 ### Disclaimer
 **THIS CODE IS PROVIDED _AS IS_ WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
