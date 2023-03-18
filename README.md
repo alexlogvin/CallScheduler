@@ -5,6 +5,10 @@
 
 ## Overview
 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=5l2xtC3TmC8
+" target="_blank"><img src="http://img.youtube.com/vi/5l2xtC3TmC8/0.jpg" 
+alt="CallScheduler showcase" width="240" height="180" border="10" /></a>
+
 This project lets users login with their Microsoft account and schedule a call with a HR\recruiter in your company.
 
 This project uses:
