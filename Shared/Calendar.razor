@@ -65,7 +65,7 @@
 
         // Calculate the start and end of the current week in user's time zone
         var startOfWeek = GetUtcStartOfWeekInTimeZone(DateTime.Today, graphTimeZone);
-        var endOfWeek = startOfWeek.AddDays(7);
+        var endOfWeek = startOfWeek.AddMonths(1);
 
         graphClient = clientFactory.GetAuthenticatedClient();
 
